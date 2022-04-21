@@ -6,34 +6,28 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1120</width>
-    <height>779</height>
+    <width>1121</width>
+    <height>806</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>AS</string>
+   <string>TGS</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTextBrowser" name="textBrowser">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
     <property name="geometry">
      <rect>
-      <x>705</x>
+      <x>860</x>
       <y>30</y>
-      <width>411</width>
-      <height>741</height>
+      <width>256</width>
+      <height>761</height>
      </rect>
-    </property>
-    <property name="tabletTracking">
-     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>940</x>
       <y>0</y>
       <width>101</width>
       <height>31</height>
@@ -46,36 +40,49 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>190</y>
-      <width>231</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>用户信息</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>330</y>
-      <width>231</width>
-      <height>81</height>
+      <x>340</x>
+      <y>220</y>
+      <width>161</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
      <string>票据管理</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>330</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>认证用户</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>460</y>
-      <width>93</width>
-      <height>28</height>
+      <x>340</x>
+      <y>440</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>服务列表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>550</y>
+      <width>161</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">

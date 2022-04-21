@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'AS.ui'
+# Form implementation generated from reading ui file 'Client.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -15,40 +15,34 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1120, 800)
+        MainWindow.setIconSize(QtCore.QSize(60, 60))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setEnabled(True)
         self.textBrowser.setGeometry(QtCore.QRect(860, 30, 250, 760))
-        self.textBrowser.setTabletTracking(False)
         self.textBrowser.setObjectName("textBrowser")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(940, 0, 100, 30))
         self.label.setObjectName("label")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(340, 220, 161, 61))
+        self.pushButton.setEnabled(True)
+        self.pushButton.setGeometry(QtCore.QRect(360, 300, 151, 71))
+        self.pushButton.setLayoutDirection(QtCore.Qt.LeftToRight)
+        self.pushButton.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("OIP-C.jpg"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton.setIcon(icon)
+        self.pushButton.setIconSize(QtCore.QSize(200, 300))
         self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(340, 320, 161, 61))
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(340, 420, 161, 61))
-        self.pushButton_3.setObjectName("pushButton_3")
         MainWindow.setCentralWidget(self.centralwidget)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "AS"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Client"))
         self.label.setText(_translate("MainWindow", "明文/密文展示"))
-        self.pushButton.setText(_translate("MainWindow", "用户信息"))
-        self.pushButton_2.setText(_translate("MainWindow", "票据管理"))
-        self.pushButton_3.setText(_translate("MainWindow", "下线"))
 
 
 if __name__ == '__main__':
